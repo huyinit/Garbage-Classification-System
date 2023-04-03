@@ -1,0 +1,168 @@
+@import '~antd/dist/antd.css';
+.main-title{
+    text-align: center;
+    // border: 3px solid green;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1200&fit=crop&crop=faces);
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size: cover;
+}
+
+.body-content{
+    margin: 10px;
+    background: rgba(217, 217, 217,0.6);
+    // opacity: 0.3;
+    
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    backdrop-filter: blur(10px);
+}
+
+.account{
+    display: flex;
+    // justify-content: flex-end;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+    margin-left: 18px;
+}
+
+.progression-bar{
+    width: 300px;
+    margin: 10px;
+}
+
+.statistic{
+    display:flex;
+    justify-content:space-around;
+    margin: 20px;
+    padding: 15px;
+}
+
+.center-everything{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.button-styled{
+    border-radius: 15px;
+    margin: 2px;
+
+}
+
+.icon-styled{
+    border-radius: 15px;
+    margin: 2px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.chart{
+    display: flex;
+}
+
+.chart-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.color-title {
+    background: #fcd7ee;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.chart-selector{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+.ant-picker.ant-picker-borderless {
+    background-color: white !important;
+}
+
+.garbage-type-selector{
+    display: flex;
+    margin: 20px;
+}
+
+.list-garbage-image{
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.progression-bar-group{
+    margin-top: -30px;
+}
+
+.type-garbage{
+    font-size:15px;
+    border-radius: 15px ;
+    background-color: #007BEE;
+    color:white;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.chartjs-render-monitor{
+    width: 529px !important;
+    height: 273px !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 20px;
+}
+
+.ant-picker.ant-picker-borderless{
+    border-radius: 20px;
+}
+
+.ant-picker-panel-container{
+    border-radius: 20px;
+}
+
+.date-picker{
+    display:flex;
+    // margin-top: -37px;
+    justify-content: flex-end;
+}
+
+.unselected-data-notification{
+    margin-left: 23px;
+    margin-top: 38px;
+}
+
+.main-selector{
+    left: 31.8%;
+
+}
+
+.garbage-date-picker{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    // align-items: center;
+    // align-content: space-around;
+    margin-left: 35.5%;
+}
+
+.ant-popover-inner{
+    border-radius: 14px;
+
+}
