@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Home</h1>
+    <div style="display: flex ;">
+        <form action="/home" method="post">
+            <select name="location" id="cars">
+                {% for i in vitri%}
+                <option value="volvo">{{i[0]}}</option>
+                {% endfor %}
+            </select>
+            <input class="time_value" type="date" id="birthday" name="time">
+            <button type="submit">Duyệt</button>
+
+        </form>
+        <button ><a type="button" href="/logout">logout</a></button>
+        
+    </div>
+</body>
+
+<script>
+
+</script>
+
+</html>
