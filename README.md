@@ -1,5 +1,8 @@
 # Garbage-Classification-System
 
+#YT : https://www.youtube.com/watch?v=YC0jBWtYYVI&list=PLDYXQL9eThN6nyiKVFBHUDjiaXmozslHP 
+
+
 ![image](https://user-images.githubusercontent.com/82762841/229551139-162a65f0-8f3a-400f-b3fd-d01dbfe7bb6e.png)
 
 ![image](https://user-images.githubusercontent.com/82762841/229551499-a5b5732c-b6ca-43d8-a576-745326770520.png)
